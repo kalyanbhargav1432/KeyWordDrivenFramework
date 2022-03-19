@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Facebook Test Automation Regression Suite" parallel="tests" thread-count="5">
+
+	<test name="Facebook Regression Test Cases1" >
+		<parameter name="sheetname" value="login" />
+		<classes>
+			<class name="com.bridgelabz.LoginTest"></class>
+		</classes>
+	</test>
+	
+	<test name="Facebook Regression Test Cases2">
+		<parameter name="sheetname" value="SignUp" />
+		<classes>
+			<class name="com.bridgelabz.LoginTest"></class>
+		</classes>
+	</test>
+</suite>
