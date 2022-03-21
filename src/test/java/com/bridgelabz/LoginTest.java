@@ -8,7 +8,7 @@ public class LoginTest {
 	public KeyWordEngine keyWordEngine;
 
 	@Test
-	public void liginTest() {
+	public void loginTest() {
 		keyWordEngine = new KeyWordEngine();
 		keyWordEngine.startExecution("Login");
 	}
